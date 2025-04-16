@@ -1,0 +1,1 @@
+Fixed bug causing root CA installation on some machines. When the application is ran with admin privileges, it will now install to LocalMachine, instead of CurrentUser.
